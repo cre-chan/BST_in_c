@@ -1,2 +1,3 @@
 ﻿  BST.c
+  queue.lib(queue.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
   BST.vcxproj -> D:\MyRepository\BST_in_c\BST\Debug\BST.lib

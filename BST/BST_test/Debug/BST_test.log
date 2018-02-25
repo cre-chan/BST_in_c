@@ -1,4 +1,7 @@
-﻿  main.cpp
-d:\myrepository\bst_in_c\bst\bst_test\main.cpp(8): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  BST.lib(queue.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
   BST_test.vcxproj -> D:\MyRepository\BST_in_c\BST\Debug\BST_test.exe
   BST_test.vcxproj -> D:\MyRepository\BST_in_c\BST\Debug\BST_test.pdb (Partial PDB)

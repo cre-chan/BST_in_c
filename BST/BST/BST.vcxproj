@@ -77,8 +77,12 @@
       <SDLCheck>true</SDLCheck>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>BST_stdafx.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>D:\MyRepository\BST_in_c\BST\BST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyRepository\BST_in_c\BST\BST;D:\MyRepository\final_libs\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>D:\MyRepository\final_libs\Headers;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
+    <Lib>
+      <AdditionalDependencies>D:\MyRepository\final_libs\Libs\queue.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -94,14 +98,18 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\MyRepository\BST_in_c\BST\BST;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\MyRepository\BST_in_c\BST\BST;D:\MyRepository\final_libs\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>BST_stdafx.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>D:\MyRepository\final_libs\Headers;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <Lib>
+      <AdditionalDependencies>D:\MyRepository\final_libs\Libs\queue.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
